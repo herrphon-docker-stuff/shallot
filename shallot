@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run -it --rm herrphon/shallot shallot $1
+

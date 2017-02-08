@@ -15,5 +15,5 @@ RUN mkdir /app \
  && cd / \
  && rm -rf /app
 
-CMD "shallot ^test"
+CMD "bash -c 'shallot ^test'"
 
