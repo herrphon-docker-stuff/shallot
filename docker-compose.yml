@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  shallot:
+    build: .
+    image: herrphon/shallot
+    container_name: shallot
+    volumes:
+      - ".:/data"
+
+
+
