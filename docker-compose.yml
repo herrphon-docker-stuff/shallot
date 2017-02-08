@@ -5,8 +5,6 @@ services:
     build: .
     image: herrphon/shallot
     container_name: shallot
-    volumes:
-      - ".:/data"
 
 
 
